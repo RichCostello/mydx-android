@@ -1,0 +1,111 @@
+/*
+* CSS TOGGLE SWITCHES
+* Unlicense
+*
+* Ionuț Colceriu - ghinda.net
+* https://github.com/ghinda/css-toggle-switch
+*
+*/
+/* Supported values are px, rem-calc, em-calc */
+/* Functions */
+/* Toggle Switches */
+/* Shared */
+/* Checkbox
+*/
+/* Radio Switch
+*/
+/* Hide by default
+*/
+
+
+/* We can't test for a specific feature,
+* so we only target browsers with support for media queries.
+*/
+@media only screen {
+  /* Checkbox switch
+  */
+  /* Radio switch
+  */
+  /* Standalone Themes */
+  /* Candy Theme
+  * Based on the "Sort Switches / Toggles (PSD)" by Ormal Clarck
+  * http://www.premiumpixels.com/freebies/sort-switches-toggles-psd/
+  */
+  /* Android Theme
+  */
+  /* iOS Theme
+  */
+  
+    
+  .switch-toggle {
+    display: block;
+    height: 30px;
+    /* Outline the toggles when the inputs are focused
+  */
+    position: relative;
+    /* For callout panels in foundation
+  */
+    padding: 0 !important;
+    /* Generate styles for the multiple states */ }
+    .switch-toggle * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+    .switch-toggle a {
+      display: block;
+      -webkit-transition: all 0.2s ease-out;
+      -moz-transition: all 0.2s ease-out;
+      transition: all 0.2s ease-out; }
+    .switch-toggle label, .switch-toggle > span {
+      line-height: 30px;
+      vertical-align: middle;
+      font-size: 12px; }
+    
+    .switch-toggle * {
+      font-size: 1em; }
+    .switch-toggle input {
+      position: absolute;
+      opacity: 0; }
+    .switch-toggle input + label {
+      position: relative;
+      z-index: 2;
+      float: left;
+      width: 50%;
+      height: 100%;
+      margin: 0;
+      text-align: center; }
+    .switch-toggle a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 0;
+      z-index: 1;
+      width: 50%;
+      height: 100%; }
+    .switch-toggle input:last-of-type:checked ~ a {
+      left: 50%; }
+    
+  .switch-candy {
+    background-color: #fff;
+    color: #000;
+    width: 80px;
+    height: 30px
+    font-size:12px;
+     }
+    .switch-candy label {
+      color: #000;
+    }
+    .switch-candy input:checked + label {
+      color: #fff;
+     }
+    .switch-candy a {
+     
+      background-color: #f36f21;
+    }
+  
+  
+
+/* Bugfix for older Webkit, including mobile Webkit. Adapted from
+* http://css-tricks.com/webkit-sibling-bug/
+*/
+

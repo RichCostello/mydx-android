@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background-color:#000;
+}
+.container{
+width:320px;	
+padding:0px;
+overflow:hidden;
+
+}
+.header{
+background-color:#8C989D;	
+padding:10px 0px;
+color:#fff;
+line-height: 26px;
+}
+.header p{
+	margin:0px;
+}
+
+.bg{
+linear-gradient(135deg, #F9FAFA 0%, #EAEDED 49%, #D8DDDE 100%) repeat scroll 0% 0% transparent;
+	background-image: -webkit-linear-gradient(135deg,#EAEDED 0%,#D8DDDE);
+	background-image: -moz-linear-gradient(135deg,#EAEDED 0%,#D8DDDE);
+	background-image: -o-linear-gradient(135deg,#EAEDED 0%,#D8DDDE);
+	background-image: linear-gradient(135deg,#EAEDED 0%,#D8DDDE);
+	height:550px;
+}
+
+.circle{
+background: none repeat scroll 0% 0% #8C989D;
+float: left;
+width: 65px;
+height: 65px;
+text-align: center;
+border-radius: 50%;
+padding: 12px;
+color: #FFF;
+font-size: 29px;
+}
+.main_body{
+padding-top:30px;
+position:relative;	
+}
+.dis{
+color: #6c6d6f;
+font-size:19px;	
+}
+.sync_box{
+	background-color:#D0D2D2;
+	padding:20px;
+	margin-top:20px;
+font-size: 18px;
+color: #6C6C6C;
+position:relative;
+}
+.sync_box p:first-child{
+border-bottom:2px solid #fff;
+padding-bottom:10px;	
+}
+.p_right_0{
+	padding-right:0px;
+}
+.pingimg {
+position:absolute;	
+top: 68%;
+width: 41%;
+}
+.orngBtn{
+	padding:10px;
+	color:#fff;
+	font-size:18px;
+	background-color:#F36E20;
+}
+.orngBtn a{
+color:#fff;
+text-decoration:none;
+margin-right:15px;
+}
+.footer{
+	position:relative;
+	bottom:-83px;
+}
+.home{
+position: absolute;
+padding: 0px 14px;
+font-size: 14px;
+color: #fff;	
+}
+.openimg{
+position: absolute;
+right: 0px;
+top: 24%;
+z-index: 1;
+width: 100px;
+}
+
+/*Pop up css...*/
+#quickpopup_background {
+    -webkit-transition: all 0.3s 0.3s;
+       -moz-transition: all 0.3s 0.3s;
+            transition: all 0.3s 0.3s;
+}
+#quickpopup,
+#quickpopup_wrapper {
+    -webkit-transition: all 0.4s;
+       -moz-transition: all 0.4s;
+            transition: all 0.4s;
+}
+#quickpopup {
+    -webkit-transform: translateX(0) translateY(-40%);
+       -moz-transform: translateX(0) translateY(-40%);
+        -ms-transform: translateX(0) translateY(-40%);
+            transform: translateX(0) translateY(-40%);
+}
+.popup_visible #quickpopup {
+    -webkit-transform: translateX(0) translateY(0);
+       -moz-transform: translateX(0) translateY(0);
+        -ms-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+}
+
+.choice {
+    background-color: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+
+/*Bar...*/
+#progressBar {
+  width: 100px;
+  margin: 0px ;
+  height: 5px;
+  background-color: #cccccc;
+  float:right;
+}
+#progressBar div {
+  height: 100%;
+  text-align: right;
+  padding: 0px;
+  line-height: 5px; /* same as #progressBar height if we want text middle aligned */
+  width: 0;
+  background-color: #4D8BE1;
+  box-sizing: border-box;
+}
+.timer
+{
+float: right;
+text-align:right;
+width:150px;	
+}
+#divSeconds
+{
+font-size: 10px;
+color: #444444;	
+font-weight:lighter;
+}

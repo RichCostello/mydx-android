@@ -1,0 +1,100 @@
+body {
+
+font: 14px/24px Helvetica, sans-serif;
+margin: 0px auto;
+
+}
+
+#header-dropin {
+background-color: #454343 !important;
+}
+
+#header-dropin {
+float: left;
+opacity: .97;
+padding: 20px 0;
+width: 100%;
+z-index: 9999;
+}
+
+
+.row {
+width: 100%;
+
+margin: 0 auto;
+
+}
+
+
+
+#header-dropin .logo {
+margin: 0px;
+}
+
+.logo {
+margin-top: 0px;
+text-align: left;
+}
+
+a img {
+border: none;
+}
+
+#header-container {
+padding: 10px 0 5px 0;
+position: relative;
+
+margin-bottom: 30px;
+}
+
+#sub-header-container {
+background-color: none!important;
+color: #000;
+padding: 7px 0;
+}
+
+.columns {
+float: left;
+min-height: 1px;
+padding: 0 12px;
+position: relative;
+}
+
+.five, .row .five {
+width: 41.66667%;
+}
+.right {
+margin-left: 24px;
+}
+.hinfo {
+	text-align: center;
+	clear: both;
+}
+.hinfo h4{
+	
+	margin-bottom: -3px;
+}
+.hinfo p {line-height: 3px}
+.ptop {margin:5px 0px;}
+
+.entry-content {
+	display: block;
+	float: left;
+	width: 250px;
+	margin: 0px 5px;
+	padding: 0px 25px;
+}
+
+h3 {
+font-size: 18px;
+line-height: 23px;
+font-weight: 600;
+margin-bottom: 15px;
+}
+
+.entry-content p {
+font-size: 15px;
+line-height: 26px;
+margin-bottom: 20px;
+}
+

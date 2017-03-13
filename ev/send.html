@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="expires" content="-1" />
+	<meta name="viewport" content="width=device-width" />
+
+	<title>EasyBLE Demo</title>
+
+	<style>
+	body {
+		font-family: sans-serif;
+		font-size: 120%;
+	}
+	button {
+		font-family: sans-serif;
+		font-size: 20px;
+		font-weight: bold;
+		padding: 10px 20px;
+		/*-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;*/
+		border-radius: 6px;
+		border: 1px solid #00000;
+	}
+	</style>
+
+	<script>
+	// If running this file from Evothings Workbench redirect console.log
+	// to the Workbench Tools window.
+	if (window.hyper && window.hyper.log) { console.log = hyper.log }
+	</script>
+
+	<script src="libs/cordova-android/cordova.js"></script>
+    <script src="libs/jquery-1.8.2.js"></script>
+	<script src="libs/evothings/evothings.js"></script>
+	<script src="libs/evothings/easyble/easyble.js"></script>
+</head>
+
+<body>
+	<h1>EasyBLE Demo</h1>
+
+	<button onclick="send()">Send</button>
+
+	
+	<button onclick="window.location.reload(true)">Reload</button>
+
+    <div id="divLog">Log</div>
+
+	
+
+	<script type="text/javascript">
+
+	    function send() {
+	        alert("Sending");
+	        var URL = "https://dev.cdxlife.com/appmatch16d.php?s=AZ-6027-02&ui=988&drs=0.00046837895182083605,0.00006797340612964936,0.00020830948548918114,0.000001,0.00009979430345003199,0.000025475952442023585,0.000017374525198561514,0.00020303915959481885,0.00006583256532457993,0.0002690280712367728,0.00001651878294671973,0.00009899797302982396,0.00009747285498493023,0.00007143456645292968,0.00022794536313958116,0.00017479205697890378&sm=18&mp=25&em=";
+	        var strdata = "";
+	        $.get("dt.js", function (data) {
+	            alert("Data Loaded: " + data);
+	            strdata = data;
+	            $.ajax({
+	                type: "POST",
+	                url: URL,
+	                data: strdata,
+	                async: false,
+	                contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+	                dataType: "html",
+	                success: function (result) {
+	                    alert("success = " + result);
+	                },
+	                error: function (result, hh, bb) {
+	                    alert("Error = " + result);
+	                    alert("Error = " + hh);
+	                    alert("Error = " + bb);
+	                }
+
+	            });
+
+	        });
+	        
+        }
+
+function showInfo(Msg) {
+    document.getElementById("divLog").innerHTML += "<br>" + Msg;
+}
+	
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=320, maximum-scale=2">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>CDX intro page</title>
+
+    <!-- Bootstrap core CSS -->
+     <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/styles-iframe.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+
+    <!-- Custom styles for this template -->
+ <!--    <link href="justified-nav.css" rel="stylesheet"> -->
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!--Adobe Edge Runtime-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script type="text/javascript" charset="utf-8" src="https://animate.adobe.com/runtime/5.0.0/edge.5.0.0.min.js"></script>
+    <style>
+        .edgeLoad-EDGE-100765409 { visibility:hidden; }
+    </style>
+<script>
+   AdobeEdge.loadComposition('quicktest', 'EDGE-100765409', {
+    scaleToFit: "none",
+    centerStage: "horizontal",
+    minW: "0",
+    maxW: "undefined",
+    width: "320px",
+    height: "548px"
+}, {"dom":{}}, {"dom":{}});
+</script>
+<!--Adobe Edge Runtime End-->
+  </head>
+
+  <body>
+
+    <div class="container index-cont gradient">
+    <!--  <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+
+       <div class="navbar-header">
+        <div id="menu-toggle">
+    <img src="img/navbut.jpg" alt="Menu"></img>
+  </div>
+    <nav id="menu">
+     <ul class="gn-menu-main">
+
+<li><a href="profile.php" class="gn-icon gn-icon-profile"><span class="pull1">My Profile</span></a></li>
+
+<li><a href="profile.php#search/" class="gn-icon gn-icon-search"><span class="pull1">Search</span></a></li>
+
+<li><a data-toggle="modal" href="/education.php" data-target="#helpModal" class="gn-icon gn-icon-education"><span class="pull1">Education</span></a></li>
+
+<li><a data-toggle="modal" href="/appplaceholder.php?pagename=MyDx+Forums" data-target="#helpModal" class="gn-icon gn-icon-forums"><span class="pull1">Forums</span></a></li>
+
+<li><a href="strain-locator.php"class="gn-icon gn-icon-map"><span class="pull1">Map</span></a></li>
+
+<li><a data-toggle="modal" href="https://cdxlife.com/faq" data-target="#helpModal" class="gn-icon gn-icon-faq"><span class="pull1">FAQ</span></a></li>
+
+<li><a href="settings.php" class="gn-icon gn-icon-settings"><span class="pull1">Settings</span></a></li>
+
+<li><a href="logout.php" class="gn-icon gn-icon-logout"><span class="pull1">Log Out</span></a></li>
+
+
+
+</ul>
+
+
+  </nav>
+          <a class="navbar-brand" href="index.php"><img class="logotop" src="assets/images/mdx.png" align="center" alt=""></a>
+        </div>
+    </div>   -->
+   <!-- end nav section -->
+  <div>
+    <div id="Stage" class="EDGE-100765409">
+  </div>
+  </div>
+
+
+
+ <!-- end main content -->
+
+
+     <!-- /container -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+       <!-- jQuery (necessary for Bootstraps JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="js/bootstrap.min.js"></script>
+    <script src="js/customjs.js"></script>
+     <script src="js/owl-slide.js"></script>
+    <script src="assets/owl-carousel/owl.carousel.js"></script>
+     <script src="js/hide.js"></script>
+  </body>
+</html>

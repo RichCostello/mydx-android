@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+
+.circle {
+    background: none repeat scroll 0% 0% #8C989D;
+    float: left;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    border-radius: 50% !important;
+    padding: 12px;
+    color: #FFF;
+    font-size: 29px;
+    margin-left:10px;
+}
+.main_body {
+    padding-top:30px;
+    position:relative;
+}
+.dis {
+    color: #6c6d6f;
+    font-size:19px;
+    margin-left: 43px;
+}
+.sync_box {
+    background-color:#D0D2D2;
+    padding:10px;
+    margin-top:11px;
+    font-size: 18px;
+    color: #6C6C6C;
+    position:relative;
+}
+.sync_box p:first-child {
+    border-bottom:2px solid #fff;
+    padding-bottom:10px;
+}
+.p_right_0 {
+    padding-right:0px;
+}
+.pingimg {
+    position:absolute;
+    top: 70%;
+    width: 41%;
+}
+.orngBtn {
+    padding:10px;
+    color:#fff;
+    font-size:18px;
+    background-color:#F36E20;
+    display: inline-block;
+    width: 100%;
+    text-align:right;
+}
+.orngBtn a {
+    color:#fff;
+    text-decoration:none;
+    margin-right:15px;
+}
+.home {
+    position: absolute;
+    padding: 0px 14px;
+    font-size: 14px;
+    color: #fff;
+}
+.openimg {
+    position: absolute;
+    right: 0px;
+    top: -32%;
+    z-index: 1;
+    width: 83px;
+}
+.col-md-9 {
+    width:234px;
+    position:relative;
+}
+.pull-right {
+    float:right;
+}
+.clearBoth {
+    clear:both;
+}
+.subslider1 {
+    height: 160px;
+    background: url("../img/mollie-front-full1.png") no-repeat scroll -20px 13px / 362px 140px transparent;
+}
+.second .dis {
+    width: 181px
+}
+.startimg {
+    max-width:205px;
+    margin-left:auto;
+    margin-right:auto;
+    float:none;
+}
+/*For bar and popup*/
+#quickpopup_background {
+    -webkit-transition: all 0.3s 0.3s;
+    -moz-transition: all 0.3s 0.3s;
+    transition: all 0.3s 0.3s;
+}
+#quickpopup, #quickpopup_wrapper {
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+#quickpopup {
+    -webkit-transform: translateX(0) translateY(-40%);
+    -moz-transform: translateX(0) translateY(-40%);
+    -ms-transform: translateX(0) translateY(-40%);
+    transform: translateX(0) translateY(-40%);
+}
+.popup_visible #quickpopup {
+    -webkit-transform: translateX(0) translateY(0);
+    -moz-transform: translateX(0) translateY(0);
+    -ms-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+}
+#result_background {
+    -webkit-transition: all 0.3s 0.3s;
+    -moz-transition: all 0.3s 0.3s;
+    transition: all 0.3s 0.3s;
+}
+#result, #result_wrapper {
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+#result {
+    -webkit-transform: translateX(0) translateY(-40%);
+    -moz-transform: translateX(0) translateY(-40%);
+    -ms-transform: translateX(0) translateY(-40%);
+    transform: translateX(0) translateY(-40%);
+}
+.popup_visible #result {
+    -webkit-transform: translateX(0) translateY(0);
+    -moz-transform: translateX(0) translateY(0);
+    -ms-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+}
+.choice {
+    background-color: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+}
+/*Bar...*/
+#progressBar {
+    width: 158px;
+    margin: 0px;
+    height: 5px;
+    background-color: #cccccc;
+    float:right;
+}
+#progressBar div {
+    height: 100%;
+    text-align: right;
+    padding: 0px;
+    line-height: 5px; /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+    background-color: #4D8BE1;
+    box-sizing: border-box;
+}
+.timer {
+    position: absolute !important;
+    right: 0;
+    bottom: 73px;
+    margin-right: 10px;
+
+}
+#divSeconds {
+    font-size: 10px;
+    color: #444444;
+    font-weight:lighter;
+}
+.sync_box {
+    min-height:130px;
+}
+
+#flash_one{
+    margin: 28px;
+    position: absolute;
+    z-index: 9999 !important;
+    left: 12px;
+    top: -76px;
+}
+#flash_two{
+    margin: 28px;
+    position: absolute;
+    z-index: 9999 !important;
+    left: 12px;
+    top: -76px;
+}
+#disableQuickPopUp{ position: relative;}
+.p_right_0 {
+    position: relative;
+}
+.blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
